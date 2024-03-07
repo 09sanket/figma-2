@@ -1,0 +1,22 @@
+/* components/NavigationBar.module.css */
+
+.navBar {
+  display: flex;
+  font-family: 'Cabin', sans-serif; /* Cabin font */
+  background-color: #f0f0f0; /* Background color */
+}
+
+.navBar button {
+  margin: 20px;
+  margin-right: 10px; /* Adjust the margin as needed for spacing between buttons */
+  font-weight: bold; /* Bold text */
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transition for smooth effect */
+}
+
+.navBar button:hover {
+  color: #fff; /* Text color on hover */
+  background-color: #333; /* Background color on hover */
+}
